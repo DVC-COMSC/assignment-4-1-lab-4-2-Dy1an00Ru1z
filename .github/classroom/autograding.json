@@ -5,7 +5,7 @@
       "setup": "",
       "run": "g++ -std=c++11 main.cpp && ./a.out",
       "input": "10",
-      "output": "[990.00, 198.00, 792.00]",
+      "output": "[\\w,\\W]*990\\.00[\\w,\\W]*\\n198\\.00[\\w,\\W]*\\n792\\.00[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "g++ -std=c++11 main.cpp && ./a.out",
       "input": "150",
-      "output": "[14850.00, 7425.00, 7425.00]",
+      "output": "[\\w,\\W]*14850\\.00[\\w,\\W]*\\n7425\\.00[\\w,\\W]*\\n7425\\.00[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "g++ -std=c++11 main.cpp && ./a.out",
       "input": "75",
-      "output": "[7425.00, 2970.00, 4455.00]",
+      "output": "[\\w,\\W]*7425\\.00[\\w,\\W]*\\n2970\\.00[\\w,\\W]*\\n4455\\.00[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
